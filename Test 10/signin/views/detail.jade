@@ -1,0 +1,22 @@
+extends layout
+
+block content
+  div 
+    p.showText 姓名：
+    p(id="username" class="detailDisplay") #{user.username}
+
+  div
+    p.showText 学号：
+    p(id="sid" class="detailDisplay") #{user.sid}
+
+  div
+    p.showText 邮箱：
+    p(id="email" class="detailDisplay") #{user.email}
+
+  div
+    p.showText 手机：
+    p(id="phone" class="detailDisplay") #{user.phone}
+
+  input(value="退出登录" id="signout" type="button" class="signinButton big")
+  
+  script(type='text/javascript' src="javascripts/signout.js")

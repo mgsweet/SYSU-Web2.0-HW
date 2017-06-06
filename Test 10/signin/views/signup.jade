@@ -1,0 +1,45 @@
+extends layout
+
+block content
+  form(method="post")
+    if error
+      div.error!= error
+
+    div
+      p.showText 用户名：
+      input(name="username" id="username" class="textInput" placeholder="Your name" value=user.username)
+      span.errorHint
+
+    div
+      p.showText 密码：
+      input(name="password" id="password" class="textInput" type="password" placeholder="Your password" value=user.password)
+      span.errorHint
+
+    div
+      p.showText 重复密码：
+      input(name="repeatPassword" id="repeatPassword" class="textInput" type="password" placeholder="repeat your password" value=user.repeatPassword)
+      span.errorHint
+
+    div
+      p.showText 学号：
+      input(name="sid" id="sid" class="textInput" placeholder="Your student ID" value=user.sid)
+      span.errorHint
+
+    div
+      p.showText 邮箱：
+      input(name="email" id="email" class="textInput" placeholder="Your email address" value=user.email)
+      span.errorHint
+
+    div
+      p.showText 手机：
+      input(name="phone" id="phone" class="textInput" placeholder="Your phone number" value=user.phone)
+      span.errorHint
+
+    div#button
+      input(value="注册" id="register" type="submit" class="signinButton")
+      input(value="重置" id="reset" type="button" class="signinButton")
+      input(value="已有帐户登陆" id="toSignin" type="button" class="signinButton big")
+
+  script(type="text/javascript" src="javascripts/validator.js")
+  script(type="text/javascript" src="javascripts/signup.js")
+

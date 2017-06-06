@@ -1,0 +1,26 @@
+extends layout
+
+block content
+  form(method="post")
+    if error
+      div.error!= error
+
+    div
+      p.showText 用户名
+      input(name="username" id="username" class="textInput" placeholder="Your name" value=user.username)
+      span.errorHint
+
+    div
+      p.showText 密码：
+      input(name="password" id="password" class="textInput" placeholder="Your password" type="password")
+      span.errorHint
+
+    div#button
+      input(value="登陆" id="signinpost" type="submit" class="signinButton")
+      input(value="重置" id="reset" type="button" class="signinButton")
+      input(value="新用户注册" id="toSignup" type="button" class="signinButton big")
+
+  script(type="text/javascript" src="javascripts/signin.js")
+
+
+
