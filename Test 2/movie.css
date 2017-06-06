@@ -1,0 +1,144 @@
+body {
+    background-image: url("imges/background.png");
+    background-repeat: repeat;
+    margin: 0px;
+    padding: 0px;
+    font-size: 8pt;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+#banner {
+    background-image: url("imges/bannerbackground.png");
+    background-repeat: repeat-x;
+    background-size: auto 50px;
+    border-width: 0px;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 24pt;
+    font-family: Tahoma, Verdana, sans-serif;
+    text-align: center;
+}
+
+#comment_bar {
+    width: 800px;
+    position: relative;
+    border: 4px solid gray;
+    margin: auto;
+    overflow: hidden;
+}
+
+#rotten {
+    background-image: url("imges/rottenbackground.png");
+    background-repeat: repeat-x;
+    width: 550px;
+    height: 83px;
+    top: 0;
+}
+
+#rotten_rank {
+    font-size: 48pt;
+    font-weight: bold;
+    color: red;
+    vertical-align: 18%;
+}
+
+#rotten_reviewsNum {
+    font-size: 8pt;
+    color: white;
+    vertical-align: 120%;
+}
+
+#commentList {
+    width: 550px;
+    margin: 0px;
+    padding: 0px;
+}
+
+#leftcomment {
+    width: 47%;
+    float: left;
+    margin-left: 2%;
+}
+
+#rightcomment {
+    width: 47%;
+    float: right;
+    margin-right: 2%;
+    margin-left: 0;
+}
+
+p.comment {
+    overflow: hidden;
+    padding: 8px;
+    border: 2px solid gray;
+    font-weight: bold;
+    font-size: 8pt;
+    background-color: #E1D697;
+}
+
+p.reviewer {
+    overflow: hidden;
+    padding-top: 0px;
+    margin-bottom: 3em;
+
+}
+
+img.icon {
+    float: left;
+    margin-right: 5px;
+}
+
+#overview {
+    width: 250px;
+    background-color: #A2B964;
+    font-size: 8pt;
+    font-family: Arial, sans-serif;
+    float: right;
+}
+
+#overview dl {
+    padding-left: 10px;
+}
+
+#overview dt {
+    font-weight: bold;
+}
+
+#overview dd {
+    margin-bottom: 1em;
+    padding-right: 10px;
+}
+
+#w3c {
+    float: left;
+    border-style: none;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+}
+
+.publication {
+    font-style: italic;
+}
+
+p#endText {
+    clear: right;
+    background-color: #A2B964;
+    margin: 0;
+    padding: 5px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+

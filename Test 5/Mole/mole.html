@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>mole</title>
+		<meta name="author" content="Aaron Qiu" />
+		<meta name="description" content="hit maze" />
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<link href="mole.css" type="text/css" rel="stylesheet" />
+		<script type="text/javascript" src="mole.js"></script>
+		<embed src="bgm.mp3" hidden="true" autostart="true" loop="-1" />
+	</head>
+	<body>
+		<h1>WHAT-A-MOLE</h1>
+		<img id="headImg" src="imges/headImg.jpg">
+		<p id="description">Test your skill. How many boxes(moles) can you check(hit) in 30 seconds?</p>
+		<div id="mole">
+			<div id="mole_pos">
+				<div id="mole_body">
+					<div id="controlBar">
+						<button id="controlGame">Start Game | Stop Game</button>
+						<p class="showText">Time: </p>
+						<input id="showTime" disabled="disabled">
+						<input id="remain" disabled="disabled" />
+						<p class="showText">Score: </p>
+						<input id="showScore" disabled="disabled" />
+					</div>
+					<div id="playBar">
+						<br />
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="bottomText">
+			<p id="instruction">Instruction:</p>
+		<ol>
+			<li>Click on the radio buttons(moles) as they are selected randomly by the computer.</li>
+			<li>1 point per hit, minus 1point per miss.</li>
+		</ol>
+		</div>
+		<div id="rank">
+			<h2>Rank</h2>
+			<div id="rankBody">
+			</div>
+		</div>
+	</body>
+</html>

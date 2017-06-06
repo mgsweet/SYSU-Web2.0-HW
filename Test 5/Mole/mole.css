@@ -1,0 +1,157 @@
+body {
+	background-color: #445E7C;
+	text-align: center;
+	font-family: sans-serif;
+}
+
+h1 {
+	color: #E4922A;
+	font-weight: 100;
+	font-size: 50pt;
+	font-family: "brush Script Std", sans-serif;
+}
+
+#description {
+	color: #BDE4FA;
+}
+
+#controlBar {
+	display: inline-block;
+}
+
+#controlGame {
+	color: #445E7C;
+	height: 25px;
+	font-size: 10pt;
+	position: relative;
+	left: -30px;
+	width: 180px;
+}
+
+.showText {
+	position: relative;
+	left: 10px;
+	text-align: left;
+	width: 60px;
+	display: inline-block;
+	margin: 10px;
+	color: #E4922A;
+}
+
+#showTime {
+	color: #445E7C;
+	position: relative;
+	width: 40px;
+	left: -10px;
+}
+
+#remain {
+	color: #445E7C;
+	position: relative;;
+	width: 155px;
+	left: -40px;
+}
+
+#showScore {
+	color: #445E7C;
+	position: relative;
+	width: 40px;
+	left: 0px;
+}
+
+#mole_pos {
+	margin: auto;
+	width: 360px;
+}
+
+
+#playBar_pos {
+}
+
+
+
+#playBar {
+	border-top: 1px solid;
+	border-bottom: 1px solid;
+	height: 250px;
+	width: 360px;
+	border-color: white;
+}
+
+.hole {
+	background-color: #263446;
+	height: 30px;
+	width: 30px;
+	border-radius: 50%;
+	margin: 2px;
+	float: left;
+	border: 1px solid gray;
+	border-color: white;
+
+}
+
+#instruction {
+	text-align: left;
+	font-weight: bolder;
+	color: #E4922A;
+}
+
+#bottomText {
+	color: #BDE4FA;
+	width: 540px;
+	margin: auto;
+}
+
+li {
+	font-size: 10pt;
+	text-align: left;
+}
+
+.mouse {
+	background-color: #263446;
+	height: 30px;
+	width: 30px;
+	border-radius: 50%;
+	margin: 2px;
+	float: left;
+	border: 1px solid gray;
+	border-color: white;
+	border-color: red;
+	background-size: 30px 30px;
+	background-image: url("imges/1.png");
+}
+
+#mouseDied {
+	border-color: white;
+	background-size: 30px 30px;
+	background-image: url("imges/1die.png");
+}
+
+#focus {
+
+}
+
+h2 {
+	color: #E4922A;
+}
+
+#rankBody {
+	height: 300px;
+	width: 500px;
+	margin: auto;
+	border: solid #BDE4FA 2px;
+	border-left: none;
+	border-right: none;
+}
+
+.rankIFO {
+	text-align: left;
+	color: #E4922A;
+	font-size: 15pt;
+	margin: 5px;
+}
+
+#wrongHole {
+	background-color: #FC695A;
+}
+

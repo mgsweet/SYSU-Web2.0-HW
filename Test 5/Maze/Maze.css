@@ -1,0 +1,208 @@
+body {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	overflow: hidden;
+	font-family: sans-serif;
+}
+
+h1 {
+	margin-bottom: 0;
+	font-weight: 400;
+}
+
+#instruction {
+	margin: 15px;
+	margin-bottom: 0;
+	font-size: 20pt;
+	font-weight: 200;
+}
+
+#remain {
+	transition:all 1s ease-in-out;
+	height: 80px;
+	font-size: 20pt;
+	font-weight:300;
+}
+
+#maze {
+}
+
+#maze_pos {
+	width: 500px;
+	margin: auto;
+	position: relative;
+}
+
+#maze_body {
+	width: 500px;
+	height: 330px;
+}
+
+.wall {
+	background-color: #EEEEEE;
+	border: 1px solid;
+	float: left;
+}
+
+.path {
+	float: left;
+	background: white;
+}
+
+#p1 {
+	border-top: 1px solid;
+	width: 200px;
+	height: 49px;
+	border-left: none;
+	border-right: none;
+	border-bottom: none;
+}
+
+#p2 {
+	width: 50px;
+	height: 100px;
+}
+
+#p3 {
+	width: 50px;
+	height: 100px;
+}
+
+#p4 {
+	width: 160px;
+	height: 50px;
+}
+
+#p5 {
+	width: 150px;
+	height: 50px;
+}
+
+#w1 {
+	border-bottom: none;
+	width: 498px;
+	height: 50px;
+}
+
+#w2 {
+	border-top: none;
+	border-bottom: none;
+	width: 148px;
+	height: 50px;
+}
+
+#w3 {
+	border-top: none;
+	border-bottom: none;
+	width: 148px;
+	height: 50px;
+}
+
+#w4 {
+	border-top: none;
+	width: 148px;
+	height: 99px;
+}
+
+#w5 {
+	width: 98px;
+	height: 99px;
+	border-bottom: none;
+}
+
+#w6 {
+	border-top: none;
+	width: 148px;
+	height: 99px;
+}
+
+#w7 {
+	border-top: none;
+	border-bottom: none;
+	width: 98px;
+	height: 50px;
+}
+
+#w8 {
+	border-right: none;
+	width: 199px;
+	height: 48px;
+}
+
+#w9 {
+	border-top: none;
+	border-right: none;
+	border-left: none;
+	width: 100px;
+	height: 49px;
+}
+
+#w10 {
+	border-left: none;
+	width: 199px;
+	height: 48px;
+}
+
+#start {
+	cursor: pointer;
+	font-size: 25pt;
+	margin: 5px;
+	margin-left: 0;
+	margin-right: 0;
+	float: left;
+	width: 40px;
+	height: 40px;
+	background-color: #85F986;
+
+}
+
+#terminal {
+	width: 10px;
+	height: 50px;
+	float: left;
+}
+
+#end {
+	font-size: 25pt;
+	margin: 5px;
+	margin-right: 0;
+	margin-left: 0;
+	float: left;
+	width: 40px;
+	height: 40px;
+	background-color: #8788F9;
+}
+
+.buttomText {
+	font-size: 13pt;
+	font-weight: 300;
+	text-align: left;
+	width: 600px;
+	height: 55px;
+	margin: auto;
+}
+
+#description {
+	
+}
+
+#sample {
+	background: #EEEEEE;
+	border: 1px solid;
+	width: 100px;
+	height: 30px;
+	margin: auto;
+	margin-bottom: 10px;
+}
+
+#goodluck {
+}
+
+
+
+
+
+
+
+

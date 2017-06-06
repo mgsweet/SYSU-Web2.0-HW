@@ -1,0 +1,25 @@
+body {
+    background-image:url("http://a3.qpic.cn/psb?/V13i9p1k2CxxmD/ODIwjaeSO.9vncctisrTdu7ZyuW7zlaklj0adI4Fh0s!/b/dAoBAAAAAAAA&bo=cgSAAgAAAAADANE!&rf=viewer_4");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: black;
+    background-origin: content-box
+}
+
+h2 {
+    color: white;
+    position: center;
+    font-family: "tiranti Solid LET", serif;
+    font-size: 60pt;
+}
+
+.imgText {
+    font-family:Georgia, Garamond, serif;
+    color: white;
+    position: absolute;
+    top: 94%;
+    left: 42.5%;
+    font-size: 10px;
+}

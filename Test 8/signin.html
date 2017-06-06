@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>signin</title>
+		<meta http-equiv="Content-Type", content="text/html; charset=utf-8" />
+		<link rel="stylesheet" type="text/css" href="signin.css" />
+		<script type="text/javascript" src="js/jquery-3.1.0.js"></script>
+		<script type="text/javascript" src="js/signin.js"></script>
+	</head>
+	<body>
+		<div id="signin">
+			<div id="signinArea">
+				<fieldset>
+					<legend>注册</legend>
+					<form action="/logIn" method="post">
+						<p class="showText">姓名: </p><input name="name" id="name" class="textInput" placeholder="Your name"/>
+						<p class="showText">学号: </p><input name="id" id="id" class="textInput" placeholder="Your student ID"/>
+						<p class="showText">邮箱: </p><input name="email" id="email" class="textInput" placeholder="Your email address"/>
+						<p class="showText">手机: </p><input name="phone" id="phone" class="textInput" placeholder="Your phone number"/>
+						<div id="button">
+							<input value="注册" id="register" type="submit" class="signinButton" />
+							<input value="重置" id="reset" type="button" class="signinButton" />
+						</div>
+					</form>
+				</fieldset>
+			</div>
+		</div>
+		<div id="query">
+		</div>
+	</body>
+</html>

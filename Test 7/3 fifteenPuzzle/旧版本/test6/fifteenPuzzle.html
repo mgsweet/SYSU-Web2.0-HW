@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Fifteen Puzzle</title>
+		<script type="text/javascript" src="js/binary-heap.js"></script>
+		<script type="text/javascript" src="js/jquery-3.1.0.js"></script>
+		<script type="text/javascript" src="js/n-puzzle.js"></script>
+		<script type="text/javascript" src="js/fifteenPuzzle.js"></script>
+
+		<link rel="stylesheet" type="text/css" href="fifteenPuzzle.css" />
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="author" content="Aaron Qiu" />
+		<meta name="description" content="a simple game" />
+		<meta name="key" content="fifteen Puzzle" />
+	</head>
+	<body>
+		<audio src="bgm.mp3" controls="controls" id="audio1" hidden="hidden" autoplay="autoplay" loop="loop"></audio>
+		<img src="imges/headImg.png" id="headImg" alt="head img" />
+		<div id="gameArea">
+			<div id="gameBody"></div>
+		</div>
+		<div id="displayBar">
+			<p class="displayText">Time:</p>
+			<input class="screen" id="time" disabled="disabled" />
+			<p class="displayText">Step:</p>
+			<input class="screen" id="step" disabled="disabled" />
+		</div>
+		<button id="startButton"></button>
+		<button id="hintButton" class="myButton">Hint</button>
+		<button id="cheat" class="myButton">Auto</button>
+	</body>
+</html>

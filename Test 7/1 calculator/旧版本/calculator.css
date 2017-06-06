@@ -1,0 +1,202 @@
+body {
+	font-family: sans-serif;
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	background-color: #F9F9F7;
+}
+
+#calculator {
+}
+
+#cal_pos {
+	/*position: absolute;
+	left: 38.5%;*/
+	width: 232px;
+	margin: auto;
+	position: relative;
+}
+
+#cal_body {
+	width: 232px;
+	height: 320px;
+	border-radius: 1%;
+	border: solid #8E8E8E 1px;
+	overflow: hidden;
+	text-align: center;
+	box-shadow: 0px 10px 50px grey;
+	-moz-box-shadow: 0px 10px 50px grey;
+	-webkit-box-shadow: 0px 10px 50px grey;
+}
+
+h1 {
+	text-align: center;
+}
+
+#screen {
+	padding-right: 15px;
+	height: 75px;
+	background-color: #909090;
+	text-align: right;
+	width: 220px;
+}
+
+#display {
+	font-weight: lighter;
+	width: 150px;
+	text-align: right;
+	padding-top: 8px;
+}
+
+#result {
+	font-weight: lighter;
+	width: 210px;
+	height: 40px;
+	text-align: right;
+	font-size: 35pt;
+}
+
+input {
+	opacity: 1;
+	color: white;
+	background-color: #909090;
+	padding: 0px;
+	margin: 0px;
+	border: 0px;
+}
+
+button {
+	border: 0px;
+	padding: 0px;
+	width: 58px;
+	display: inline-block;
+	float: left;
+}
+
+/*
+	cal_button
+	include 1,2,3,4,5,6,7,8,9,0,spot button
+*/
+.cal_button {
+	font-size: 15pt;
+	background-color: #E0E0E0;
+	height: 49.4px;
+	margin: 0px;
+	border-right: solid #8E8E8E 1px;
+	border-bottom: solid #8E8E8E 1px;
+}
+
+.cal_UPbutton {
+	font-size: 15pt;
+	background-color: #E0E0E0;
+	height: 49.4px;
+	margin: 0px;
+	border-right: solid #8E8E8E 1px;
+	border-bottom: solid #8E8E8E 1px;
+}
+
+.cal_button:active {
+	background-color: #C0C0BE;
+}
+
+/*
+	cal_Fbutton: F means function;
+	include add,subtract,mutiply,divide button
+*/
+.cal_Fbutton {
+	color: white;
+	font-size: 22pt;
+	font-weight: 200;
+	height: 49.4px;
+	margin: 0px;
+	border-bottom: solid #8E8E8E 1px;
+	background-color: #F5923E;
+}
+
+.cal_Fbutton:active {
+	color: gray;
+	background-color: #C77734;
+}
+
+/*
+	the clear,leftBracket,rightBracket
+	need to be specially designed.
+*/
+button#clear {
+	font-size: 13pt;
+	background-color: #D6D6D6;
+}
+
+button#clear:active {
+	background-color: #C0C0BE;
+}
+
+button#leftBracket {
+	background-color: #D6D6D6;
+	font-size: 12pt;
+}
+
+button#leftBracket:active {
+	background-color: #C0C0BE;
+}
+
+button#rightBracket {
+	font-size: 12pt;
+	background-color: #D6D6D6;
+}
+
+button#rightBracket:active {
+	background-color: #C0C0BE;
+}
+
+.shift_button {
+	overflow: hidden;
+	background-color: #A3A3A3;
+	border-radius: 50%;
+	height: 12px;
+	width: 12px;
+	position: absolute;
+	left: 7px;
+	top: 5px;
+	opacity: 1;
+}
+
+button#close {
+}
+
+button#hide {
+	left: 25px;
+}
+
+button#advance {
+	left: 43px;
+}
+
+div#cal_body:hover button#close {
+	background-color: #FC5652;
+}
+
+div#cal_body:hover button#hide {
+	background-color: #FDBC40;
+}
+
+div#cal_body:hover button#advance {
+	background-color: #34C84A;
+}
+
+.SB_icon {
+	opacity: 0;
+	margin: 0;
+	position: relative;
+	top: -3px;
+	font-size: 10pt;
+	font-weight: lighter;
+}
+
+#SB_body:hover .SB_icon{
+	opacity: 1;
+}
+
+
+
+

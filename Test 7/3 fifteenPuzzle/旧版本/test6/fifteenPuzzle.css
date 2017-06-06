@@ -1,0 +1,219 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: sans-serif;
+	text-align: center;
+}
+
+@font-face {
+	font-family: "Stencil Std";
+	src:url("font/StencilStd.otf");
+}
+
+#headImg {
+	margin-bottom: 15px;
+	height: 300px;
+}
+
+#startButton {
+	margin-top: 30px;
+	overflow: hidden;
+	cursor: pointer;
+	font-size: 50pt;
+	width: 200px;
+	height: 120px;
+	background-color: inherit;
+	background-size: 200px 120px;
+	background-image: url("imges/start.png");
+	background-repeat: no-repeat;
+	border: 0;
+}
+
+#startButton:active {
+	background-image: url("imges/start2.png");
+}
+
+#gameArea {
+	margin: auto;
+	width: 510px;
+	height: 510px;
+	overflow: hidden;
+	position: relative;
+}
+
+.blank {
+	width: 125px;
+	height: 125px;
+	background-size: 500px 500px;
+	position: absolute;
+}
+
+.pic {
+	cursor: pointer;
+	width: 125px;
+	height: 125px;
+	background-image: url("imges/STARWAR.jpg");
+	background-size: 500px 500px;
+	border: 1px solid;
+	position: absolute;
+	z-index: 0;
+	transition:all 0.2s ease-in-out;
+}
+
+.pic:hover {
+	transform:scale(1.05, 1.05);
+	z-index: 1;
+}
+
+#pic0 {
+	background-position: 0px 0px;
+}
+#pic1 {
+	background-position: -125px 0px;
+}
+#pic2 {
+	background-position: -250px 0px;
+}
+#pic3 {
+	background-position: -375px 0px;
+}
+#pic4 {
+	background-position: 0px -125px;
+}
+#pic5 {
+	background-position: -125px -125px;
+}
+#pic6 {
+	background-position: -250px -125px;
+}
+#pic7 {
+	background-position: -375px -125px;
+}
+#pic8 {
+	background-position: 0px -250px;
+}
+#pic9 {
+	background-position: -125px -250px;
+}
+#pic10 {
+	background-position: -250px -250px;
+}
+#pic11 {
+	background-position: -375px -250px;
+}
+#pic12 {
+	background-position: 0px -375px;
+}
+#pic13 {
+	background-position: -125px -375px;
+}
+#pic14 {
+	background-position: -250px -375px;
+}
+
+.row0 {
+	top: 1px;
+}
+.row1 {
+	top: 127px;
+}
+.row2 {
+	top: 253px;
+}
+.row3 {
+	top: 379px;
+}
+.col0 {
+	left: 1px;
+}
+.col1 {
+	left: 127px;
+}
+.col2 {
+	left: 253px;
+}
+.col3 {
+	left: 380px;
+}
+
+.screen {
+	font-size: 15pt;
+	font-family: "Stencil Std";
+	color: black;
+	text-align: left;
+	border: 0;
+	width: 80px;
+}
+
+#displayBar {
+	margin: auto;
+	width: 500px;
+	margin-top: 20px;
+}
+
+.displayText {
+	font-family: "Stencil Std";
+	position: relative;
+	left: 10px;
+	text-align: left;
+	width: 60px;
+	display: inline-block;
+}
+
+#win {
+	text-shadow: 1px 1px 3px black;
+	position: relative;
+	top: -625px;
+	font-weight: bolder;
+	font-size: 60pt;
+	color: white;
+	z-index: 2;
+	margin: auto;
+	width: 500px;
+	overflow: hidden;
+	height: 100px;
+}
+
+.myButton {
+	width: 80px;
+	font-size: 20pt;
+	display: block;
+	margin: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-family: "Stencil Std";
+	background-color: inherit;
+	border: 0;
+	cursor: pointer;
+	text-shadow: -1px 1px 1px black;
+}
+
+.myButton:active {
+	color: #FC695A;
+	text-shadow: 1px 1px 1px black;
+}
+
+#hintImg {
+	width: 150px;
+	height: 150px;
+	overflow: hidden;
+	position: absolute;
+	top: 500px;
+	left: 70%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

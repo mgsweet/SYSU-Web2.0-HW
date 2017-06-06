@@ -1,0 +1,50 @@
+*{
+	font-family: sans-serif;
+}
+
+table {
+	border-collapse:collapse;
+	border-spacing:0;
+	border-left:1px solid #888;
+	border-top:1px solid #888;
+}
+
+th,td {
+	padding: 3px;
+	text-align: left;
+	border-right:1px solid #888;
+	border-bottom:1px solid #888;
+}
+
+th {
+	cursor: pointer;
+	font-weight:bold;
+}
+
+.alternate {
+	background-color: #DDDDDD;
+}
+
+thead {
+	background-color: #071F7C;
+	color: white;
+	text-align: left;
+}
+
+#staff th {
+	width: 130px;
+}
+
+.arrow {
+	background-repeat: no-repeat;
+	background-position: 97%;
+	background-color: #A8B0FA;
+}
+
+.up {
+	background-image: url("ascend.png");
+}
+
+.down {
+	background-image: url("descend.png");
+}

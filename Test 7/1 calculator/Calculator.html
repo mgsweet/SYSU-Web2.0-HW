@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang = "en">
+	<head>
+		<title>
+		calculator
+		</title>
+		<meta name="author" content="Aaron Qiu" />
+		<meta name="description" content="a simple calculator" />
+		<meta name="keyword" content="calculator" />
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<script type="text/javascript" src="jquery-3.1.0.js"></script>
+		<script type="text/javascript" src="lodash.js"></script>
+		<script src="newCalculator.js" type="text/javascript"></script>
+		<link href="calculator.css" type="text/css" rel="stylesheet" />
+	</head>
+	<body>
+		<h1>简单计算器</h1>
+		<div id="calculator">
+			<div id="cal_pos">
+				<div id="cal_body">
+					<div id = "SB_body">
+							<button type="button" class="shift_button" id="close">
+								<span class="SB_icon">×</span>
+							</button>
+							<button type="button" class="shift_button" id="hide">
+								<span class="SB_icon">-</span>
+							</button>
+							<button type="button" class="shift_button" id="advance">
+								<span class="SB_icon">+</span>
+							</button>
+					</div>
+					<div id="screen">
+						<input id="display" disabled="disabled" />
+						<input id="result" disabled="disabled"/>
+					</div>
+					<div id="button">
+						<button type="button" class="cal UpButton" id="clear">C</button>
+						<button type="button" class="cal UpButton" id="leftBracket" value="(">(</button>
+						<button type="button" class="cal UpButton" id="rightBracket" value=")">)</button>
+						<button type="button" class="cal FunButton" id="divide" value="/">÷</button>
+						<button type="button" class="cal generalButton" id="num7" value="7">7</button>
+						<button type="button" class="cal generalButton" id="num8" value="8">8</button>
+						<button type="button" class="cal generalButton" id="num9" value="9">9</button>
+						<button type="button" class="cal FunButton" id="mutiply" value="*">×</button>
+						<button type="button" class="cal generalButton" id="num4" value="4">4</button>
+						<button type="button" class="cal generalButton" id="num5" value="5">5</button>
+						<button type="button" class="cal generalButton" id="num6" value="6">6</button>
+						<button type="button" class="cal FunButton" id="subtract" value="-">-</button>
+						<button type="button" class="cal generalButton" id="num1" value="1">1</button>
+						<button type="button" class="cal generalButton" id="num2" value="2">2</button>
+						<button type="button" class="cal generalButton" id="num3" value="3">3</button>
+						<button type="button" class="cal FunButton" id="add" value="+">+</button>
+						<button type="button" class="cal generalButton" id="num0" value="0">0</button>
+						<button type="button" class="cal generalButton" id="spot">.</button>
+						<button type="button" class="cal generalButton" id="delete">←</button>
+						<button type="button" class="cal FunButton" id="equal">=</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
